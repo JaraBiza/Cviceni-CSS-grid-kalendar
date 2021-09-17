@@ -8,3 +8,38 @@ body {
 
 /* ---------------------------------------------------- */
 
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+	margin: 20px
+}
+.kalendar {
+	margin: 20px;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(7, 50px);
+	grid-template-rows: repeat(6, 50px);
+	gap: 3px;
+	list-style-type: none
+}
+.kalendar li {
+	text-align: center;
+	border:1px solid silver;
+
+}
+.kalendar li:hover {
+	background-color: brown;
+}
+
+.zahlavi {
+	background-color: orange;
+	color: white;
+}
+
+.predchozi, .nasledujici {
+	color: white;
+	background-color:whitesmoke;
+}
+
+
